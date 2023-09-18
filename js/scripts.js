@@ -7,8 +7,7 @@ function newItem(){
     if (inputValue === '') {
         alert("You must write something!");
       } else {
-            let list = $('#list');
-            $('#list').append(li);
+         $('#list').append(li);
       }
     
 //Crossing out an item from the list
@@ -19,7 +18,7 @@ function newItem(){
    li.on('dblclick',crossOut);
 
 //adding an "X" delete button
-   let crossOutButton = $('#<button></button>');
+   let crossOutButton = $('<button></button>');
    crossOutButton.append(document.createTextNode('X'));
    li.append(crossOutButton);
 
