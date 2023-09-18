@@ -18,6 +18,10 @@ form {
 display: inline-block;
 }
 
+p {
+    font-style: italic;
+}
+
 input{
 padding: 4px 15px 4px 5px;
 }
@@ -60,14 +64,10 @@ li:hover{
 	display: none;
 }
 
-li > crossOutButton {
+li > Button {
 	background: none;
 	border: none;
 	float: right;
 	color: #025f70;
 	font-weight: 800;
-}
-
-.delete {
-    display: none;
 }
